@@ -1,0 +1,64 @@
+$date
+	Fri Dec 09 15:40:35 2022
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module testbench $end
+$var wire 1 ! out $end
+$var reg 3 " count [2:0] $end
+$var reg 8 # inp [7:0] $end
+$var reg 3 $ select [2:0] $end
+$scope module mux_dut $end
+$var wire 8 % in [7:0] $end
+$var wire 3 & sel [2:0] $end
+$var reg 1 ! y $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b0 &
+b0 %
+b0 $
+b0 #
+b0 "
+0!
+$end
+#20
+1!
+b1110101 #
+b1110101 %
+#30
+0!
+b1 $
+b1 &
+#35
+1!
+b10 $
+b10 &
+#40
+0!
+b11 $
+b11 &
+#45
+1!
+b100 $
+b100 &
+#50
+b101 $
+b101 &
+#55
+b110 $
+b110 &
+#60
+0!
+b111 $
+b111 &
+#90
